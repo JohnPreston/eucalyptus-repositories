@@ -1,0 +1,14 @@
+---
+# Eucalyptus Generic
+
+euca_repo_url: http://downloads.eucalyptus.com/software/eucalyptus/4.2/centos/6/x86_64/eucalyptus-release-4.2-1.el6.noarch.rpm
+euca2ools_repo_url: http://downloads.eucalyptus.com/software/euca2ools/3.3/centos/6/x86_64/euca2ools-release-3.3-1.el6.noarch.rpm
+epel_repo_url: http://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
+
+euca_local_repo_url:
+euca_repo_file: /etc/yum.repos.d/eucalyptus.repo
+euca2ools_local_repo_url:
+euca2ools_repo_file: /etc/yum.repos.d/euca2ools.repo
+
+euca_use_local_repo: False
+euca_conf_file_path: /etc/eucalyptus/eucalyptus.conf
